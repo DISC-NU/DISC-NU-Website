@@ -1,0 +1,23 @@
+/* ================================ */
+/*      STYLING PAST PROJECTS       */
+/* ================================ */
+
+.past-project-img { /* the flex-item */
+    max-width: 200px;
+    margin: 1% auto;
+}
+
+#past-project-img34-row /* the flexBOX */
+{
+    display: flex;
+    justify-content: center; /* used for horizontal alignment */
+}
+
+#past-project-img234-col 
+{
+    display: flex;
+    align-items: center; /* used for vertical alignment*/
+
+}
+
+
