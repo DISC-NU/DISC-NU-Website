@@ -8,24 +8,29 @@
 
 That's this file. This is the place that has all the main informations about each resources that we will be using in our web development. Make sure to read it thoroughly to have an overview about it.
 
-### ← index.html
+### ← /app
 
-HTML files are for content! Add your text, images, buttons, and more using HTML tags.
+Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.
 
-### ← style.css
+### ← /app/lib
 
-CSS files add styling rules to your content like changing colors and fonts. 
+Contains functions used in your application, such as reusable utility functions and data fetching functions. 
 
-### ← script.js
+### ← /app/ui
 
-*(MIGHT CHANGE DUE TO US USING REACT INSTEAD OF JAVASCRIPT. I"M STILL LEARNING)*
+Contains all the UI components for your application, such as cards, tables, and forms. To save time, we've pre-styled these components for you.
 
-JavaScript files add interactivity to your website using code. This is where you can listen for events, then take an action.
+### ← /public
 
-### ← src
+Contains all the static assets for your application, such as images.
 
-Drag in `src`, like images or music, to add them to your project. You do not need to add anything to this folder unless you are working on the extensions. If you are adding an image, it is best to save it to your computer, then upload the file to the `src` folder. The url of the image will be `src/example.jpg`.
+### ← /scripts
 
+Contains a seeding script that you'll use to populate your database in a later chapter.
+
+### ← Config Files
+
+You'll also notice config files such as next.config.js at the root of your application. Most of these files are created and pre-configured when you start a new project using create-next-app. You will not need to modify them in this course.
 
 #### ← src Quick Links
 - [Client Meeting Notes](https://drive.google.com/drive/folders/1Y7NLyCetIdYKh6GyuIRYefbxCpraJc1J?usp=drive_link)
