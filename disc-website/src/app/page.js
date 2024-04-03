@@ -1,7 +1,17 @@
 import Image from "next/image";
+import Footer from './home-page-subsections/footer'; 
 
 
 
 export default function Home() {
-  return <div> Testing</div>
+  return (
+    <div> 
+    
+      <p>Testing</p>
+      
+
+      <Footer />
+    </div>
+
+  );
 }

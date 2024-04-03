@@ -11,7 +11,7 @@ module.exports = {
       'header color': '#1AC7C7',
       'very light teal':'#DFFFFB',
       'dark teal': '#00423E',
-      'darkest' : '1A5958',
+      'darkest' : '#1A5958',
     },
 
     fontFamily: {
