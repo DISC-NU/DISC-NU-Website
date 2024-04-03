@@ -17,7 +17,7 @@ module.exports = {
     fontFamily: {
       'body' : ['DM Sans'],
       'header' : ['Fira Sans'],
-    }
+    },
 
     extend: {
       backgroundImage: {
