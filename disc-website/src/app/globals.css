@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+/* ----------- HOME PAGE STYLING -------------*/
+.home-page-subsection-title {
+  text-align: center;
+  padding: 2%;
+}
+
+#past-projects-gallery {
+  justify-content: center;
+  gap: 1%;
+}
+
+/* todo: play around with gaps OR with margins to get consistent gaps between all flex boxes */
