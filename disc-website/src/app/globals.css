@@ -40,10 +40,8 @@ body {
   height: 150px;
 }
 
-
-
 .footerText{
-  color: 'darkest';
+  color: theme('colors.darkest');
   font-size: medium;
   font-family: 'DM Sans';
   font-weight: 700;
@@ -53,7 +51,6 @@ body {
 
 .icon-gallery{
   float: center;
-  margin: 6%;
   height: 50px;
   width: 50px;
 }
