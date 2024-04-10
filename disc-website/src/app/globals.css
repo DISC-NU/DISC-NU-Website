@@ -39,28 +39,3 @@ body {
   text-align: center;
   padding: 2%;
 }
-
-#past-projects-gallery {
-  justify-content: center;
-}
-
-/* ------ styling project image gallery flexboxes -------- */
-/* todo: ask Amy if there is a better way to work with these margins */
-#vertical-proj-img {
-  margin-right: 0.5em;
-  margin-bottom: 1em;
-}
-
-#big-horizontal-proj-img {
-  margin-bottom: 0.5em;
-}
-
-#small-left-horizontal-proj-img {
-  margin-top: 0.5em;
-  margin-right: 0.25em;
-}
-
-#small-right-horizontal-proj-img {
-  margin-top: 0.5em;
-  margin-left: 0.25em;
-}
