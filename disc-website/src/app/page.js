@@ -1,5 +1,5 @@
 import PastProjects from './components/past-projects.js';
-import Footer from './home-page-subsections/footer'; 
+import Footer from './components/footer'; 
 
 
 export default function Home() {
