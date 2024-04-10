@@ -7,11 +7,11 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'text color' : '#1A717C ',
-      'header color': '#1AC7C7',
-      'very light teal':'#DFFFFB',
-      'dark teal': '#00423E',
-      'darkest' : '1A5958',
+      textColor : '#1A717C ',
+      headerColor: '#1AC7C7',
+      veryLightTeal:'#DFFFFB',
+      darkTeal: '#00423E',
+      darkest : '#1A5958',
     },
 
     fontFamily: {
