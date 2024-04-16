@@ -10,12 +10,16 @@ export default function Footer () {
                 </div>
             </div>
 
-            <div class='flex flex space-x-4' style={{justifyContent: "center"}}>
+            <div class='flex space-x-4' style={{justifyContent: "center"}}>
                     <a href="https://www.google.com/">
                         <img class= 'icon-gallery' src= 'Facebook.png'/>
                     </a>
-                    <img class= 'icon-gallery' src= 'Instagram.png'/>
-                    <img class= 'icon-gallery' src= 'LinkedIn.png'/>
+                    <a href="https://www.google.com/">
+                        <img class= 'icon-gallery' src= 'Instagram.png'/>
+                    </a>
+                    <a href="https://www.google.com/">
+                        <img class= 'icon-gallery' src= 'LinkedIn.png'/>
+                    </a>
                 </div>
             </div>
     );
