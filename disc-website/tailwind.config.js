@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   
   darkMode: ["class"],
@@ -21,6 +22,7 @@ module.exports = {
       'body' : ['DM Sans'],
       'header' : ['Fira Sans'],
     },
+
     container: {
       center: true,
       padding: "2rem",
@@ -34,6 +36,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
