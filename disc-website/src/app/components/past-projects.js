@@ -5,3 +5,5 @@ export default function PastProjects() {
     <div>
       <p>Testing access to past projects file</p>
     </div>
+  );
+}
