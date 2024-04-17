@@ -4,12 +4,9 @@ import Footer from './components/footer';
 
 export default function Home() {
   return (
-    <div> 
+    <div>
     
-      <p>Testing</p>
-      
       <PastProjects />
-
       <Footer />
     </div>
 
