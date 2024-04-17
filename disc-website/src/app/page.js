@@ -8,6 +8,7 @@ export default function Home() {
     
       <p>Testing</p>
       
+      <PastProjects />
 
       <Footer />
     </div>
