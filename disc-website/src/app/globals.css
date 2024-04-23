@@ -109,6 +109,7 @@ body {
   align-items: center;
   background-color: white;
   height: 150px;
+  padding-left: 25px;
 }
 
 .footerText{

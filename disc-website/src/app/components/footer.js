@@ -11,15 +11,22 @@ export default function Footer () {
             </div>
 
             <div class='flex space-x-4' style={{justifyContent: "center"}}>
-                    <a href="https://www.google.com/">
+                    <a href="https://www.facebook.com/discNU/">
                         <img class= 'icon-gallery' src= 'Facebook.png'/>
                     </a>
-                    <a href="https://www.google.com/">
+                    <a href="https://www.instagram.com/disc_nu/">
                         <img class= 'icon-gallery' src= 'Instagram.png'/>
                     </a>
-                    <a href="https://www.google.com/">
+                    <a href="https://www.linkedin.com/company/northwestern-develop-innovation-for-social-change-disc/">
                         <img class= 'icon-gallery' src= 'LinkedIn.png'/>
                     </a>
+                    <a href="https://github.com/DISC-NU" >
+                        <img class= 'icon-gallery' src= 'Github.png'/>
+                    </a>
+                    <a href="mailto:disc@u.northwestern.edu">
+                        <img class= 'icon-gallery' src='Email.png'/>
+                    </a>
+
                 </div>
             </div>
     );
