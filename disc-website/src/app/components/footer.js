@@ -3,9 +3,10 @@ export default function Footer () {
         <div className = "footer" style= {{display: "grid", gridTemplateColumns: "3fr 1fr"}}>
             <div>
                 <div class="flex justify-start">
-                    <div className = "footerText">
-                        <p>Copyright © DISC NU </p>
-                        <p>Website Designed and Developed In-House </p>
+                    <div>
+                        <p className = 'footerText'>Copyright © DISC NU </p>
+                        <p className = 'footerText'>Website Designed and Developed In-House: </p>
+                        <p> Paula E. Fregene, Joanna Soltys, Melanie Cuenca, Pauline W. Wahiuri, Satviki Madaan </p>
                     </div>
                 </div>
             </div>
