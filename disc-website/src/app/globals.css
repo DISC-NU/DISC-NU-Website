@@ -147,6 +147,28 @@ h4 {
   padding-bottom: 1.5rem;
 }
 
+
+/* Styles for text containers within individualCards */
+.text-container {
+  text-align: center; /* Center-align text content */
+  padding: 1.5rem; /* Add padding around text content */
+}
+
+/* Additional styles for h4 and p elements */
+.text-container h4 {
+  color: theme('colors.darkest');
+  font-size: large;
+  font-family: 'DM Sans';
+}
+
+.text-container p {
+  color: theme('colors.darkest');
+  font-size: medium;
+  font-family: 'DM Sans';
+  margin-top: 1rem; /* Add spacing above paragraphs */
+  margin-bottom: 1rem; /* Add spacing below paragraphs */
+}
+
 .boxes {
   background-color: white;
   padding-top: 10.0rem;
@@ -155,12 +177,17 @@ h4 {
   padding-right:0.5rem;
 }
 
+/* Adjustments to individualCards container */
 .individualCards {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-  justify-content: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 1.75rem; /* Add padding around individualCards */
+  text-align: center; /* Center-align content within individualCards */
 }
 
+/* Styles for images within individualCards */
 .individualCards img{
   height: 16rem;
   width: 16rem;
