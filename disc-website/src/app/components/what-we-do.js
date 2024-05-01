@@ -1,8 +1,8 @@
 export default function What_we_do (){
     return(
         <div className= 'boxes' style= {{display: "grid", gridTemplateColumns: "1fr 1fr 1fr"}}>
-            <div className="individualCards" style={{justifyContent: "center"}}>
-                <img src="Equip.jpg" alt="testing"  />
+            <div className="individualCards">
+                <img src="Equip.png" alt="testing"  />
                 <div className="text-container">
                     <h4><b>Equip</b></h4>
                     <p> Enhance your problem-solving skills through coding! <br></br>
@@ -18,7 +18,7 @@ export default function What_we_do (){
             </div>
 
             
-            <div className="individualCards" style={{justifyContent: "center"}}>
+            <div className="individualCards">
                 <img src="Innovate.png" alt="testing" />
                 <div className="text-container">
                     <h4><b>Innovate</b></h4>
@@ -35,7 +35,7 @@ export default function What_we_do (){
                 </div>                        
             </div>
 
-            <div className="individualCards" style={{justifyContent: "center"}}>
+            <div className="individualCards">
                 <img src="Lead.png" alt="testing" />
                 <div className="text-container">
                     <h4><b>Lead</b></h4>

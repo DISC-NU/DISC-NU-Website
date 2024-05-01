@@ -182,14 +182,14 @@ h4 {
   /* display: flex;
   flex-direction: column;
   align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  padding: 1.75rem; /* Add padding around individualCards */
+  justify-content: space-evenly; /* Center items vertically */
   text-align: center; /* Center-align content within individualCards */
+  padding: 1.75rem; /* Add padding around individualCards */
 }
 
 /* Styles for images within individualCards */
 .individualCards img{
   height: 16rem;
-  width: 16rem;
+  width: auto;
   objject-fit: fill;
 }
