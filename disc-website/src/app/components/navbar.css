@@ -1,0 +1,35 @@
+.custom-navbar {
+  background-color: white;
+}
+
+.nav-buttons {
+  color: theme('colors.darkTeal');
+  font-family: theme('fontFamily.body'); /* Apply DM Sans font */
+  font-size: 1rem;
+}
+
+
+.logo-container {
+  text-align: center;
+  height: 100%; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 135px;
+  height: 100%; /* Allow the height to adjust automatically to maintain aspect ratio */
+  margin: 10px; /* Add some margin between the logo and text */
+}
+
+.company-name {
+  font-size: 35px; /* Adjust the font size as needed */
+  flex-grow: 1; /* Allow the middle company name to expand to fill remaining space */
+  font-family: theme('fontFamily.body'); /* Apply DM Sans font */
+  color: theme('colors.darkest');
+  overflow: unset;
+}
+
+
+
