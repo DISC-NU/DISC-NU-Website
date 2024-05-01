@@ -110,6 +110,7 @@ body {
   background-color: white;
   height: 8rem;
   padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footerText {
@@ -126,6 +127,8 @@ body {
   float: center;
   height: 3.5rem;
   width: 3.5rem;
+  min-width: 3.5rem;
+  object-fit: fill;
 }
 
 p {
@@ -161,4 +164,5 @@ h4 {
 .individualCards img{
   height: 16rem;
   width: 16rem;
+  objject-fit: fill;
 }
