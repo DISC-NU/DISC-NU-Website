@@ -133,7 +133,7 @@ function ResponsiveAppBar() {
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
-                color="inherit"
+                className = "menu-icon"
               >
                 <MenuIcon />
               </IconButton>
@@ -154,17 +154,23 @@ function ResponsiveAppBar() {
               onClose={handleCloseNavMenu}
             >
               {pages1.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page} 
+                          onClick={handleCloseNavMenu} 
+                          className="menu-item">
                   {page}
                 </MenuItem>
               ))}
               {pages2.map((page) => (
                 page === 'Resources' ? (
-                  <MenuItem key={page} onClick={handleOpenResourcesMenu}>
+                  <MenuItem key={page} 
+                            onClick={handleOpenResourcesMenu} 
+                            className="menu-item">
                     {page}
                   </MenuItem>
                 ) : (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem key={page} 
+                            onClick={handleCloseNavMenu} 
+                            className="menu-item">
                     {page}
                   </MenuItem>
                 )
@@ -187,9 +193,10 @@ function ResponsiveAppBar() {
               onClose={handleCloseResourcesMenu}
             >
               <MenuItem onClick={() => {
-                handleCloseResourcesMenu();
-                handleCloseNavMenu();
-              }}>
+                          handleCloseResourcesMenu();
+                          handleCloseNavMenu();
+                        }}
+                        className="menu-item">
               Slides
               </MenuItem>
             </Menu>
