@@ -173,8 +173,11 @@ h4 {
   background-color: white;
   padding-top: 10.0rem;
   padding-bottom: 15.0rem;
-  padding-left: 0.5rem;
-  padding-right:0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
 }
 
 /* Adjustments to individualCards container */
@@ -185,6 +188,7 @@ h4 {
   justify-content: space-evenly; /* Center items vertically */
   text-align: center; /* Center-align content within individualCards */
   padding: 1.75rem; /* Add padding around individualCards */
+  background-color: white;
 }
 
 /* Styles for images within individualCards */
@@ -192,4 +196,7 @@ h4 {
   height: 16rem;
   width: auto;
   objject-fit: fill;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }

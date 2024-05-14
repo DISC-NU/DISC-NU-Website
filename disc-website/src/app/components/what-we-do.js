@@ -1,6 +1,6 @@
 export default function What_we_do (){
     return(
-        <div className= 'boxes' style= {{display: "grid", gridTemplateColumns: "1fr 1fr 1fr"}}>
+        <div className="boxes">
             <div className="individualCards">
                 <img src="Equip.png" alt="testing"  />
                 <div className="text-container">
@@ -9,10 +9,9 @@ export default function What_we_do (){
                         We provide a supportive environment where members learn to tackle challenges step-by-step. 
                         Break down problems, brainstorm solutions, implement code, and reach effective solutions 
                         alongside a vibrant community of like-minded individuals. As a member, you'll not only sharpen 
-                        your technical abilities but also forge meaningful connections. Meet fellow coders, exchange ideas, 
+                        your technical abilities but also forge meaningful connections, meet fellow coders, exchange ideas, 
                         and collaborate on projects. Together, we navigate the ups and downs of coding, celebrating successes 
-                        and learning from setbacks. Whether you're a seasoned coder or a beginner, join us to discover the joy 
-                        of problem-solving and the camaraderie of a supportive community. Together, we'll code our way to success!
+                        and learning from setbacks.
                     </p>
                 </div>
             </div>
@@ -22,16 +21,16 @@ export default function What_we_do (){
                 <img src="Innovate.png" alt="testing" />
                 <div className="text-container">
                     <h4><b>Innovate</b></h4>
-                    <p>Join us at DISN NU, where innovation meets implementation! <br></br> 
+                    <p>DISN NU- where innovation meets implementation! <br></br> 
                     We're passionate about coding and bringing ideas to life through technology. 
                     Join us as we dive into the world of software development and explore ways to enact positive change 
-                    through our codes. In our club, we're all about pushing the boundaries of traditional coding. Here, 
-                    you'll find a space to let your creative ideas flow freely and turn them into impactful projects. 
-                    Whether you're a seasoned programmer or just starting out, we offer a space to let your creative ideas 
+                    through our codes. In our club, we're all about pushing the boundaries of traditional coding. 
+                    We encourage thinking outside the box and experimenting with new technologies.
+                    Here, you'll find a space to let your creative ideas flow freely and turn them into impactful projects. 
+                    It doesn't matter if you're a seasoned programmer or just starting out, we offer a space to let your creative ideas 
                     flow freely and turn them into impactful projects. Let's brainstorm solutions to real-world problems 
-                    and develop applications, websites, and tools that make a positive difference in our community. Our 
-                    club is a supportive community that encourages thinking outside the box and experimenting with new 
-                    technologies. Come join us and write code that makes a difference!</p>
+                    and develop applications, websites, and tools that make a positive difference in our community. Together, we're
+                    produces codes that make a difference. </p>
                 </div>                        
             </div>
 
