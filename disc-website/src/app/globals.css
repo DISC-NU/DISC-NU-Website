@@ -108,21 +108,95 @@ body {
   justify-content: flex-start;
   align-items: center;
   background-color: white;
-  height: 150px;
-  padding-left: 25px;
+  height: 8rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
-.footerText{
+.footerText {
   color: theme('colors.darkest');
   font-size: medium;
   font-family: 'DM Sans';
   font-weight: 700;
   line-height: 2.50;
+  text-align: start;
   word-wrap: break-word;
 }
 
-.icon-gallery{
+.icon-gallery {
   float: center;
-  height: 50px;
-  width: 50px;
+  height: 3.5rem;
+  width: 3.5rem;
+  min-width: 3.5rem;
+  object-fit: fill;
+}
+
+p {
+  color: theme('colors.darkest');
+  font-size: medium;
+  font-family: 'DM Sans';
+  text-align: center;
+}
+
+h4 {
+  color: theme('colors.darkest');
+  font-size: large;
+  font-family: 'DM Sans';
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/* Styles for text containers within individualCards */
+.text-container {
+  text-align: center; /* Center-align text content */
+  padding: 1.5rem; /* Add padding around text content */
+}
+
+/* Additional styles for h4 and p elements */
+.text-container h4 {
+  color: theme('colors.darkest');
+  font-size: large;
+  font-family: 'DM Sans';
+}
+
+.text-container p {
+  color: theme('colors.darkest');
+  font-size: medium;
+  font-family: 'DM Sans';
+  margin-top: 1rem; /* Add spacing above paragraphs */
+  margin-bottom: 1rem; /* Add spacing below paragraphs */
+}
+
+.boxes {
+  background-color: white;
+  padding-top: 10.0rem;
+  padding-bottom: 15.0rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+}
+
+/* Adjustments to individualCards container */
+.individualCards {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: space-evenly; /* Center items vertically */
+  text-align: center; /* Center-align content within individualCards */
+  padding: 1.75rem; /* Add padding around individualCards */
+  background-color: white;
+}
+
+/* Styles for images within individualCards */
+.individualCards img{
+  height: 16rem;
+  width: auto;
+  objject-fit: fill;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
