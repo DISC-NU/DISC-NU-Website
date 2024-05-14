@@ -1,0 +1,103 @@
+
+.welcome-page {
+  background: 
+    conic-gradient(
+      from 90deg, 
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.7),
+      rgba(7, 187, 186, 0.8),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1), 
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 1),
+      rgba(7, 187, 186, 0.8),
+      rgba(7, 187, 186, 0.7),
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.2),
+      rgba(7, 187, 186, 0.2)),
+    /* Conic gradient */
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)); /* White background */
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates a 1x2 column grid */
+  grid-gap: 20px; /* Add some gap between the columns */
+  font-family: theme('fontFamily.body'); /* Apply DM Sans font */
+}
+
+.left-column, .right-column {
+  padding: 20px; /* Add some padding to the columns */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.welcome-message-p1, 
+.welcome-message-p2,
+.welcome-message-p3 {
+  font-family: theme('fontFamily.body'); /* Apply DM Sans font */
+  font-size: 2.5rem; /* Use clamp to set a range for font size */
+  transition: all 0.3s ease;
+}
+
+
+.welcome-message-p1, .welcome-message-p3 {
+  color: theme('colors.darkest');
+}
+
+.welcome-message-p1, .welcome-message-p2 {
+  font-weight: 510;
+}
+
+.welcome-message-p3 {
+  text-align: center;
+}
+
+.icon-gallery {
+  width: clamp(1rem, 3vw, 5rem); /* Adjust width using clamp */
+  height: auto;
+}
+
+.welcome-logo {
+  width: clamp(10rem, 40vw, 30rem); /* Adjust width using clamp */
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+/* Media queries for adjusting font size based on width and height */
+@media screen and ((max-width: 550px) or max-height: 550px) {
+  .welcome-message-p1, 
+  .welcome-message-p2,
+  .welcome-message-p3 {
+    font-size: 4rem;
+}
+
+  .welcome-logo {
+    width: 70vh;
+  }
+
+}
+
+@media screen and ((max-width: 900px) or (max-height: 600px)) {
+  :root {
+    --font-size: 5rem;
+  }
+}
