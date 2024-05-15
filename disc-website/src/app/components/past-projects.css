@@ -11,15 +11,18 @@
 *{
    padding: 0;
    margin: 0;
-   /* background-color: white; */ /*todo: figure out how to get rid of black margins from dark mode */
+   /* background-color: white; */
+   /* todo: figure out how to get rid of black margins from dark mode */ 
 }
 
 /* want to be responsive on small screen sizes */
 .container{
    max-width: 1224px;
    width: 90%; /* when screen size smaller than 1224px, will take up 90% of user's screen */
-   margin: auto; /* want to center container */
+   /* margin: auto; want to center container */
    padding: 40px 0; /* 40 px padding on top and bottom*/
+   padding-left: 5%;
+   padding-right: 5%;
    background-color: white;
 }
 
@@ -46,6 +49,8 @@
    flex-direction: column; /* want images in each col to stack */
    gap: 20px;
    max-width: 33%;
+   /* --mobile-max-width: 100%; */
+   /* todo: how to get column to be bigger when screen is smaller? */
 }
 
 
@@ -55,6 +60,7 @@
    border-radius: 5px;
    object-fit: cover;
 }
+
 @media(max-width: 768px) {
    /* at <= 768 px, gallery turns in one large col! */
    .photo-gallery{
