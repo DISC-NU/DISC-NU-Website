@@ -19,19 +19,19 @@ import './past-projects.css';
 
 const photoColumns = [
  [
-   { src: "/old-showcase-photo1.png", text: "description1" },
-   { src: "/old-showcase-photo2.png", text: "description2" },
-   { src: "/winter-2023-showcase-photo2.jpg", text: "description3" }
+   { src: "/rainbows-for-all-children-data-visualizer.png", text: "Rainbows for All Children Data Visualizer" },
+   { src: "/old-showcase-photo2.png", text: "your project description here!" },
+   { src: "/old-showcase-photo3.png", text: "your project description here!" }
  ],
  [
-   { src: "/old-showcase-photo4.png", text: "description4" },
-   { src: "/old-showcase-photo5.png", text: "description5" },
-   { src: "/old-showcase-photo6.png", text: "description6" }
+   { src: "/old-showcase-photo1.png", text: "your project description here!" },
+   { src: "/good-news-partners.png", text: "Good News Partners Database Interface" },
+   { src: "/old-showcase-photo6.png", text: "your project description here!" }
  ],
  [
-   { src: "/DISC-picnic-2023.png", text: "description7" },
-   { src: "/old-showcase-photo8.png", text: "description8" },
-   { src: "/winter-2023-showcase-photo1.jpg", text: "description9" }
+   { src: "/fossil-free-nu.png", text: "Fossil Free NU Website" },
+   { src: "/old-showcase-photo4.png", text: "your project description here!" },
+   { src: "/winter-2023-showcase-photo1.jpg", text: "your project description here!" }
  ]
 ];
 
