@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Typography from '@mui/material/Typography';
 import './welcome.css';
+import Image from 'next/image'
 
 function Welcome() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -59,7 +60,7 @@ function Welcome() {
 
       {/* Content for the right column */}
       <div className="right-column" style={{ justifyContent: "center" }}>
-        <img src="disc logo.png" className={`welcome-logo ${isSmallScreen ? 'small-logo' : ''}`} alt="Logo" />
+        <Image src="/disc logo.png" className={`welcome-logo ${isSmallScreen ? 'small-logo' : ''}`} width={500} height={500} alt="Logo" />
       </div>
     </div>
   );

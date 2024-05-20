@@ -1,10 +1,12 @@
+import Image from 'next/image'
+
 export default function What_we_do (){
     return(
         <div className="everything">
             <h2 className="title">&middot; WHAT WE DO &middot;</h2>
             <div className="boxes">
                 <div className="individualCards">
-                    <img src="Equip.png" alt="testing"  />
+                    <Image src="/Equip.png" width={500} height={500} alt="Equip"  />
                     <div className="text-container">
                         <h4><b>EQUIP</b></h4>
                         <p><b> Enhance your problem-solving skills through coding! </b><br></br>
@@ -20,7 +22,7 @@ export default function What_we_do (){
 
                 
                 <div className="individualCards">
-                    <img src="Innovate.png" alt="testing" />
+                    <Image src="/Innovate.png" width={500} height={500} alt="Innovate" />
                     <div className="text-container">
                         <h4><b>INNOVATE</b></h4>
                         <p><b> DISC NU: where innovation meets implementation! </b> <br></br> 
@@ -36,7 +38,7 @@ export default function What_we_do (){
                 </div>
 
                 <div className="individualCards">
-                    <img src="Lead.png" alt="testing" />
+                    <Image src="/Lead.png" width={500} height={500} alt="Lead" />
                     <div className="text-container">
                         <h4><b>LEAD</b></h4>
                         <p><b> Join our dynamic club and make a difference! </b> <br></br>

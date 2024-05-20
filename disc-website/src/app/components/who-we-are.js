@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import './who-we-are.css';
+import Image from 'next/image'
 
 export default function PastProjects() {
     return (
@@ -20,7 +21,7 @@ export default function PastProjects() {
                 in the Evanston/Chicago area.
             </p>
 
-            <img className="exec-photo" src={"/DISC-picnic-2023.png"}/>
+            <Image className="exec-photo" src={"/DISC-picnic-2023.png"} width={500} height={500} alt="Exec Photo"/>
         </div>
       </div>
     );

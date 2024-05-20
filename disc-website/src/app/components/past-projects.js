@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import './past-projects.css';
+import Image from 'next/image'
 
 
 //
@@ -49,7 +50,7 @@ function Photo( {src, text} ) {
    <div className="photo-container">
     
      <div className="photo">
-       <img className="image" src={src}/>
+       <Image className="image" src={src} width={500} height={500} alt="images"/>
      </div>
 
 

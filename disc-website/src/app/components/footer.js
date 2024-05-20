@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Footer () {
     return ( 
         <div className = "footer" style= {{display: "grid", gridTemplateColumns: "3fr 1fr"}}>
@@ -13,19 +15,19 @@ export default function Footer () {
 
             <div class='flex space-x-4' style={{justifyContent: "center"}}>
                     <a href="https://www.facebook.com/discNU/">
-                        <img className= 'icon-gallery' src= 'Facebook.png'/>
+                        <Image className= 'icon-gallery' src= '/Facebook.png' width={500} height={500} alt="Facebook"/>
                     </a>
                     <a href="https://www.instagram.com/disc_nu/">
-                        <img className= 'icon-gallery' src= 'Instagram.png'/>
+                        <Image className= 'icon-gallery' src= '/Instagram.png' width={500} height={500} alt="Instagram"/>
                     </a>
                     <a href="https://www.linkedin.com/company/northwestern-develop-innovation-for-social-change-disc/">
-                        <img className= 'icon-gallery' src= 'LinkedIn.png'/>
+                        <Image className= 'icon-gallery' src= '/LinkedIn.png' width={500} height={500} alt="LinkIn"/>
                     </a>
                     <a href="https://github.com/DISC-NU" >
-                        <img className= 'icon-gallery' src= 'Github.png'/>
+                        <Image className= 'icon-gallery' src= '/Github.png' width={500} height={500} alt="GitHub"/>
                     </a>
                     <a href="mailto:disc@u.northwestern.edu">
-                        <img className= 'icon-gallery' src='Email.png'/>
+                        <Image className= 'icon-gallery' src='/Email.png' width={500} height={500} alt="Email"/>
                     </a>
 
                 </div>
