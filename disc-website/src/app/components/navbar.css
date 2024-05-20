@@ -1,5 +1,7 @@
 .custom-navbar {
   background-color: white;
+  position: fixed;
+  z-index: 1000;
 }
 
 .nav-buttons {
