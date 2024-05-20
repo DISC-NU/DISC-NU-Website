@@ -31,7 +31,7 @@ const photoColumns = [
  [
    { src: "/fossil-free-nu.png", text: "Fossil Free NU Website" },
    { src: "/old-showcase-photo4.png", text: "your project description here!" },
-   { src: "/winter-2023-showcase-photo1.jpg", text: "description9" }
+   { src: "/winter-2023-showcase-photo1.jpg", text: "your project description here!" }
  ]
 ];
 
