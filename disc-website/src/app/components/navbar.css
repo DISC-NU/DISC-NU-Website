@@ -8,7 +8,6 @@
   font-size: 1rem;
 }
 
-
 .logo-container {
   text-align: center;
   height: 100%; /* Adjust the height as needed */
@@ -21,6 +20,7 @@
   width: 135px;
   height: 100%; /* Allow the height to adjust automatically to maintain aspect ratio */
   margin: 10px; /* Add some margin between the logo and text */
+  transition: width 0.3s ease; /* Smooth transition for width */
 }
 
 .company-name {
@@ -29,7 +29,29 @@
   font-family: theme('fontFamily.body'); /* Apply DM Sans font */
   color: theme('colors.darkest');
   overflow: unset;
+  transition: width 0.3s ease; /* Smooth transition for width */
 }
+
+.menu-item {
+  font-family: theme('fontFamily.body'); /* Apply DM Sans font */
+  color: theme('colors.darkTeal');
+}
+
+.menu-icon {
+  color: theme('colors.darkest');
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 75px; 
+  }
+
+  .company-name {
+    font-size: 30px; /* Adjust the font size as needed */
+  }
+}
+
+
 
 
 
