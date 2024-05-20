@@ -4,7 +4,7 @@ export default function emailus(){
 
     return(
         <div>
-        <h1 className="faq-title">
+        <h1 className="title">
         &middot; EMAIL US &middot;
       </h1> 
       <h2 className='email-css'>

@@ -12,11 +12,11 @@ import { useEffect } from 'react'
 export default function Faq () {
     return (
       
-      <div className="faq-css">
-      <h1 className="faq-title">
+      <div className="faq-css" style={{marginTop: "10rem"}}>
+      <h1 className="title">
       &middot; FAQ &middot;
       </h1>
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible className="w-full" >
       
       <AccordionItem value="item-1">  
         
@@ -25,7 +25,7 @@ export default function Faq () {
         </div>
         <AccordionContent>
           
-          Yes. It adheres to the WAI-ARIA design pattern.
+          Come to DISC studios and general member events! At the end of fall quarter, you can apply to be on a DISC Project Team.
           
         </AccordionContent>
 
@@ -36,13 +36,12 @@ export default function Faq () {
       <AccordionItem value="item-2">
         <AccordionTrigger>
         <b style={{color: 'rgb(32, 73, 79)'}}>
-          What is the time commitent to be a part of DISC?
+          What is the time commitment to be a part of DISC?
           </b>
           </AccordionTrigger>
           
         <AccordionContent>
-          Yes. It comes with default styles that matches the other
-          components&apos; aesthetic.
+          The time committment depends on the project team that you are a part of. DISC meets once a week, but expect to have meetings and worktime with your project team!
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
