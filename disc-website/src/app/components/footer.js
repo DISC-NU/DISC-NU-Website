@@ -6,7 +6,7 @@ export default function Footer () {
                     <div>
                         <p className = 'footerText'>Copyright © DISC NU </p>
                         <p className = 'footerText'>Website Designed and Developed In-House: </p>
-                        <p> Paula E. Fregene, Joanna Soltys, Melanie Cuenca, Pauline W. Wahiuri, Satviki Madaan </p>
+                        <p> Paula E. Fregene, Joanna Soltys, Melanie Cuenca, Pauline W. Wachiuri, Satviki Madaan </p>
                     </div>
                 </div>
             </div>
