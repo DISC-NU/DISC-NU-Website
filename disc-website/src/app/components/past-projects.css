@@ -20,24 +20,13 @@
    max-width: 1224px;
    width: 90%; /* when screen size smaller than 1224px, will take up 90% of user's screen */
    /* margin: auto; want to center container */
-   padding: 40px 0; /* 40 px padding on top and bottom*/
+   padding: 0.0rem 15.0rem; /* 40 px padding on top and bottom*/
    padding-left: 5%;
    padding-right: 5%;
    background-color: white;
 }
 
 
-.title{
-   margin-bottom: 2rem;
-   color: theme("colors.headerColor");
-   text-align: center;
-   font-feature-settings: 'clig' off, 'liga' off;
-   font-family: "Fira Sans", sans-serif;
-   font-size: 90px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 90px; /* 100% */
-}
 .photo-gallery {
    display: flex;
    gap: 20px;
@@ -116,3 +105,4 @@
  transform: translate(-50%, -50%);
  text-align: center;
 }
+
