@@ -6,8 +6,8 @@ export default function What_we_do (){
                 <div className="individualCards">
                     <img src="Equip.png" alt="testing"  />
                     <div className="text-container">
-                        <h4><b>Equip</b></h4>
-                        <p> Enhance your problem-solving skills through coding! <br></br>
+                        <h4><b>EQUIP</b></h4>
+                        <p><b> Enhance your problem-solving skills through coding! </b><br></br>
                             We provide a supportive environment where members learn to tackle challenges step-by-step. 
                             Break down problems, brainstorm solutions, implement code, and reach effective solutions 
                             alongside a vibrant community of like-minded individuals. As a member, you'll not only sharpen 
@@ -22,8 +22,8 @@ export default function What_we_do (){
                 <div className="individualCards">
                     <img src="Innovate.png" alt="testing" />
                     <div className="text-container">
-                        <h4><b>Innovate</b></h4>
-                        <p>DISN NU- where innovation meets implementation! <br></br> 
+                        <h4><b>INNOVATE</b></h4>
+                        <p><b> DISC NU: where innovation meets implementation! </b> <br></br> 
                         We're passionate about coding and bringing ideas to life through technology. 
                         Join us as we dive into the world of software development and explore ways to enact positive change 
                         through our codes. In our club, we're all about pushing the boundaries of traditional coding. 
@@ -39,8 +39,8 @@ export default function What_we_do (){
                 <div className="individualCards">
                     <img src="Lead.png" alt="testing" />
                     <div className="text-container">
-                        <h4><b>Lead</b></h4>
-                        <p>Join our dynamic club and make a difference! <br></br>
+                        <h4><b>LEAD</b></h4>
+                        <p><b> Join our dynamic club and make a difference! </b> <br></br>
                         Our community is dedicated to driving social impact and community engagement 
                         through leadership at every level. Whether you're a project manager, executive, 
                         or servant leader, there's a role for you to lead and shape our community's future. 

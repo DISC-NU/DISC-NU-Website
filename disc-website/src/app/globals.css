@@ -156,7 +156,8 @@ h4 {
 /* Additional styles for h4 and p elements */
 .text-container h4 {
   color: theme('colors.darkest');
-  font-size: large;
+  font-size: 32px;
+  padding-bottom: 0px;
   font-family: 'DM Sans';
 }
 
