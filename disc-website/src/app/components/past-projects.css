@@ -33,8 +33,6 @@
    flex-direction: column; /* want images in each col to stack */
    gap: 20px;
    max-width: 33%;
-   /* --mobile-max-width: 100%; */
-   /* todo: how to get column to be bigger when screen is smaller? */
 }
 
 .photo img {
@@ -49,6 +47,10 @@
    .photo-gallery{
        flex-direction: column;
        align-items: center;
+   }
+
+   .column {
+         max-width: 100%;
    }
 }
 
