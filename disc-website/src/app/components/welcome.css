@@ -53,21 +53,29 @@
 .welcome-message-p2,
 .welcome-message-p3 {
   font-family: theme('fontFamily.body'); /* Apply DM Sans font */
-  font-size: 2.5rem; /* Use clamp to set a range for font size */
+  
   transition: all 0.3s ease;
 }
 
 
-.welcome-message-p1, .welcome-message-p3 {
-  color: theme('colors.darkest');
+.welcome-message-p1{
+  color: #00433F;
+  text-align: center;
+  font-weight: 600;
+  font-size: 4.5rem; /* Use clamp to set a range for font size */
 }
 
-.welcome-message-p1, .welcome-message-p2 {
-  font-weight: 510;
+.welcome-message-p2 {
+  color: #E0FFFB;
+  text-align: center;
+  font-weight: 600;
+  font-size: 4.5rem; /* Use clamp to set a range for font size */
 }
 
 .welcome-message-p3 {
   text-align: center;
+  color: #00433F;
+  font-size: 2.5rem; /* Use clamp to set a range for font size */
 }
 
 .icon-gallery {

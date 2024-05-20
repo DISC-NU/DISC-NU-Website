@@ -5,7 +5,7 @@
 .nav-buttons {
   color: theme('colors.darkTeal');
   font-family: theme('fontFamily.body'); /* Apply DM Sans font */
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .logo-container {
@@ -24,7 +24,8 @@
 }
 
 .company-name {
-  font-size: 35px; /* Adjust the font size as needed */
+  font-size: 45px; /* Adjust the font size as needed */
+  font-weight:600;
   flex-grow: 1; /* Allow the middle company name to expand to fill remaining space */
   font-family: theme('fontFamily.body'); /* Apply DM Sans font */
   color: theme('colors.darkest');
