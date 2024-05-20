@@ -1,0 +1,23 @@
+
+.element {
+    margin: 30px;
+    margin-left: 400px; /* Default margin for larger screens */
+    margin-right: 400px;
+    
+  }
+  
+  @media (max-width: 1000px) {
+    .element {
+      margin: 15px; /* Margin for tablets */
+      margin-left: 50px; 
+    margin-right: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .element {
+      margin: 10px; /* Margin for mobile devices */
+      margin-left: 10px; 
+    margin-right: 10px;
+    }
+  }
