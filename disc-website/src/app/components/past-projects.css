@@ -11,37 +11,29 @@
 *{
    padding: 0;
    margin: 0;
-   /* background-color: white; */
-   /* todo: figure out how to get rid of black margins from dark mode */ 
 }
 
 /* want to be responsive on small screen sizes */
 .container{
    max-width: 1224px;
    width: 90%; /* when screen size smaller than 1224px, will take up 90% of user's screen */
-   /* margin: auto; want to center container */
-   padding: 0.0rem 15.0rem; /* 40 px padding on top and bottom*/
    padding-left: 5%;
    padding-right: 5%;
    background-color: white;
+   padding-bottom: 4em;
 }
-
 
 .photo-gallery {
    display: flex;
    gap: 20px;
 }
 
-
 .column {
    display: flex;
    flex-direction: column; /* want images in each col to stack */
    gap: 20px;
    max-width: 33%;
-   /* --mobile-max-width: 100%; */
-   /* todo: how to get column to be bigger when screen is smaller? */
 }
-
 
 .photo img {
    width: 100%;
@@ -56,7 +48,12 @@
        flex-direction: column;
        align-items: center;
    }
+
+   .column {
+         max-width: 100%;
+   }
 }
+
 /* --------------------------------------- */
 /*  CSS CORRESPONDING TO THE HOVER EFFECT  */
 /* --------------------------------------- */
@@ -65,13 +62,11 @@
    gap: 0px;
 }
 
-
 .image {
    display: block;
    width: 100%;
    height: auto;
 }
-
 
 .overlay {
    position: absolute;
@@ -86,11 +81,9 @@
    background-color: #1A5958;
 }
 
-
 .photo-container:hover .overlay {
    opacity: 1;
 }
-
 
 .text {
  color: white;
