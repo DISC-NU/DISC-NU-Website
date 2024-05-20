@@ -132,10 +132,13 @@ body {
 }
 
 p {
-  color: theme('colors.darkest');
-  font-size: medium;
-  font-family: 'DM Sans';
+  color: #1B717D;
+  font-size: 1.2rem;
   text-align: center;
+  color: #1B717D;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "Fira Sans";
 }
 
 h4 {
@@ -156,14 +159,13 @@ h4 {
 /* Additional styles for h4 and p elements */
 .text-container h4 {
   color: theme('colors.darkest');
-  font-size: 32px;
-  padding-bottom: 0px;
+  font-size: 2.5rem;
   font-family: 'DM Sans';
 }
 
 .text-container p {
-  color: theme('colors.darkest');
-  font-size: medium;
+  color: #1B717D;
+  font-size: 1.2rem;
   font-family: 'DM Sans';
   margin-top: 1rem; /* Add spacing above paragraphs */
   /* margin-bottom: 1rem; Add spacing below paragraphs */
@@ -176,7 +178,6 @@ h4 {
   padding-right: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 28px;
 }
 
 /* Adjustments to individualCards container */
@@ -202,7 +203,7 @@ h4 {
 
 .title{
   padding-top: 5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   color: theme("colors.headerColor");
   text-align: center;
   font-feature-settings: 'clig' off, 'liga' off;
@@ -215,6 +216,7 @@ h4 {
 }
 
 .everything {
+  padding-top: 18rem;
   background-color: white;
 }
 

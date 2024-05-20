@@ -5,7 +5,7 @@ import './who-we-are.css';
 export default function PastProjects() {
     return (
       <div className="everything">
-        <div className="container">
+        <div >
             <h2 className="title">&middot; WHO WE ARE &middot;</h2>
           
             <p className="mission-statement">

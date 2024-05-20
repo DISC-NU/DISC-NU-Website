@@ -107,7 +107,7 @@ return (
 export default function PastProjects() {
 return (
   <div className="everything">
-    <div className="container">
+    <div className="container1">
       <h2 className="title">&middot; PAST PROJECTS &middot;</h2>
       <PhotoGallery photoColumns = {photoColumns} />
     </div>
