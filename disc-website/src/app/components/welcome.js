@@ -9,7 +9,7 @@ function Welcome() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen((window.innerHeight < 600 || window.innerWidth < 600)); // Adjust the threshold as needed
+      setIsSmallScreen((window.innerHeight < 600 || window.innerWidth < 700)); // Adjust the threshold as needed
     };
 
     handleResize(); // Initial check
@@ -21,15 +21,15 @@ function Welcome() {
     <div className="welcome-page">
       {/* Content for the left column */}
       <div className="left-column" style={{ justifyContent: "center" }}>
-        <Typography variant="h2" noWrap className="welcome-message-p1">
+        <Typography variant="h2" noWrap sx={{fontFamily: 'DM Sans, sans-serif', fontSize: '2.5rem', fontWeight: '510'}} className="welcome-message-p1">
           WELCOME TO
         </Typography>
         {!isSmallScreen && (
-          <Typography variant="h2" noWrap className="welcome-message-p2">
+          <Typography variant="h2" noWrap sx={{fontFamily: 'DM Sans, sans-serif', fontSize: '2.5rem', fontWeight: '510'}} className="welcome-message-p2">
             DISC NU
           </Typography>
         )}
-        <Typography variant="h3" className={`${isSmallScreen ? 'welcome-message-p2 small-screen-p2' : 'welcome-message-p3'}`}>
+        <Typography variant="h3" sx={{fontFamily: 'DM Sans, sans-serif', fontSize: '2.5rem'}} className={`${isSmallScreen ? 'welcome-message-p2 small-screen-p2' : 'welcome-message-p3'}`}>
           {!isSmallScreen ? (
             <>
               A Northwestern University <br /> community dedicated to <br /> Designing & Innovating for <br />Social Change
