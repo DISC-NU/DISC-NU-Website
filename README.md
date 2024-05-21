@@ -1,7 +1,7 @@
 # Winter 2024 Disc Website
  Develop and Innovate for Social Change is a Northwestern University student group dedicated to expanding technology as a force for good .
 
-# ALL THE CODE IS LOCATED WITHIN THE 'disc-website' DIRECTORY. THAT'S WHERE I THE NEXTJS IS LOCATED AND EVERYTHING. KEEP THIS IN MIND WHEN DEPLOYING!!!!
+# ALL THE CODE IS LOCATED WITHIN THE 'disc-website' DIRECTORY. THAT'S WHERE THE NEXTJS IS LOCATED AND EVERYTHING. KEEP THIS IN MIND WHEN DEPLOYING!!!!
 
 
 ## File Overview
